@@ -5,5 +5,6 @@
 #include "PrimeNumber.h"
 #include "Stack.h"
 #include "Queue.h"
+#include "Circular_Queue.h"
 
 #endif

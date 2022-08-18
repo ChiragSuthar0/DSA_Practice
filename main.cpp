@@ -30,6 +30,9 @@ RESTART:
     else if (DS == 2) {
         start<Queue>();
     }
+    else if (DS == 3) {
+        start<Circular_Queue>();
+    }
     else {
         goto SEL_DS;
     }
