@@ -19,6 +19,7 @@ SEL_DS:
         << "2. Queue" << std::endl
         << "3. Circular Queue" << std::endl
         << "4. Priority Queue" << std::endl
+        << "5. Linked List" << std::endl
         << std::endl <<"Select your choice: ";
 
     int DS;
@@ -32,6 +33,9 @@ RESTART:
     }
     else if (DS == 3) {
         start<Circular_Queue>();
+    }
+    else if (DS == 5) {
+        start<LinkedList>();
     }
     else {
         goto SEL_DS;

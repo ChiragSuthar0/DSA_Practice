@@ -49,6 +49,8 @@ void Circular_Queue::Enqueue(Circular_Queue::CQ *cq, int number) {
         cout << "Element added to the Queue\n";
         cq->rear = (cq->rear+1) % MAX;
         cq->items[cq->rear] = number;
+    } else {
+        cout << "Queue is Full\n";
     }
 }
 
