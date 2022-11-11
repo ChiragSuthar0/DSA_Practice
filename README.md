@@ -1,8 +1,8 @@
 # **About Docker**
 
 ## Docker Run COMMAND:
-    ```docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
-    ```
+    docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+    
 
 docker run <image-name> ==> this will run the image and create a container with some random name to it.
                             And if the image is not found locally it will search the docker repository for the image and download it.
